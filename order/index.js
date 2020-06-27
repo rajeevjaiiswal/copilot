@@ -22,7 +22,7 @@ app.get('/*', function (req, res) {
 })
 
 
-  res.send("Order Recieved. Processing started for order....\n" + inventoryServiceRes)
+  res.send("Order Recieved. Processing started ...\n" + inventoryServiceRes)
 })
 
 //Launch listening server on port 8080
